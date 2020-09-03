@@ -1,0 +1,269 @@
+/* NAVBAR CSS */
+
+.main-navbar {
+  background: #fff;
+}
+
+button {
+  background: #107f8c !important;
+  border: 1px solid #107f8c !important;
+  padding: 3px 15px !important;
+}
+
+.navbar-nav {
+  margin: 0px auto;
+}
+
+/* BANNER CSS */
+
+.banner-description {
+  padding: 35px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.banner-img {
+  background-image: url("../assets/images/banner-img.png");
+  height: 405px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+/* WHAT WE DO CSS */
+
+.what-we-do-heading {
+  padding: 45px;
+  text-align: center;
+}
+
+.what-we-do-heading p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* TEAM WORK */
+
+.team-work-heading {
+  padding: 45px;
+  text-align: center;
+}
+
+.team-work-heading p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.succes-rate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects,
+.awards,
+.professional-expertise,
+.experience-years {
+  padding: 0px 20px;
+}
+
+.projects h1,
+.awards h1,
+.professional-expertise h1,
+.experience-years h1 {
+  margin-bottom: 0px !important;
+  color: #ed216a;
+  font-size: 45px !important;
+  font-weight: 700;
+}
+
+.projects span,
+.awards span,
+.professional-expertise span,
+.experience-years span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.software-development-design-container {
+  background: #fff;
+  margin-top: 35px;
+}
+
+.development-design-container {
+  padding: 30px;
+}
+
+.development-design-container h1 {
+  font-weight: 700;
+}
+
+.development-design-container p {
+  font-size: 18px;
+}
+
+.custome-software {
+  color: #ed216a;
+}
+
+.partner-description {
+  color: #414b59;
+}
+
+.software-design-development-photo {
+  padding: 35px;
+}
+
+/* CASESTUDY CSS */
+
+.case-study {
+  margin: 25px;
+  text-align: center;
+}
+
+.case-study h1 {
+  font-weight: 600;
+}
+
+.case-study span {
+  color: #ed216a;
+}
+
+.k2awards {
+  background: #f8f1de;
+}
+
+.detail {
+  padding: 25px;
+}
+
+.detail hr {
+  margin-left: 0px;
+  width: 30px;
+  border-top: 3px solid #ed216a;
+}
+
+.fosterCare {
+  background: #d0e3ec;
+}
+
+.mra {
+  background: #d4e9dc;
+}
+
+.k2awards,
+.fosterCare,
+.mra {
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.detail span {
+  color: #ed216a;
+}
+
+.read-more {
+  text-align: center;
+}
+
+.read-more button {
+  background: #f7f7f7 !important;
+  color: #ed216a;
+  border: 2px solid #ed216a !important;
+  padding: 15px !important;
+  border-radius: 7px;
+}
+
+/* DEVELOPMENTAPPROACH CSS */
+
+.development-approach {
+  margin: 35px;
+  text-align: center;
+}
+
+.development-approach h2 {
+  font-weight: 700;
+}
+
+.process-description {
+  background: #fff;
+  padding: 25px;
+  min-height: 313px;
+}
+
+.process-description h2 {
+  font-weight: 600;
+}
+
+.team-photo {
+  background: #f8f1de;
+}
+
+.team-photo,
+.process-description {
+  border-radius: 5px;
+}
+
+.development-approaches {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  background: #fff;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.heading-icon {
+  padding-right: 15px;
+}
+
+.heading h4 {
+  font-weight: 700;
+}
+
+.development-description p {
+  font-size: 12px;
+}
+
+.development-approaches-container {
+  position: relative;
+}
+
+.ux-driven-img {
+  left: -90px;
+  position: absolute;
+  top: 20px;
+}
+
+.code-review-img {
+  position: absolute;
+  left: -110px;
+  top: 350px;
+}
+
+.security-img {
+  position: absolute;
+  right: -115px;
+  top: 190px;
+}
+
+/* TECHSTACK CSS */
+
+.tech-stack-heading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tech-stack-heading h2 {
+  font-weight: 700;
+}
+
+.tech-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tech-tabs > .nav-tabs {
+  border: none;
+}
