@@ -11,6 +11,8 @@ import TeamWork from "../Components/Home/TeamWork";
 import CaseStudy from "../Components/Home/CaseStudy";
 import DevelopmentApproach from "../Components/Home/DevelopmentApproach";
 import TechStack from "../Components/Home/TechStack";
+import OurCustomer from "../Components/Home/OurCustomer";
+import Footer from "../Components/Home/Footer";
 
 const HomePage = () => {
   return (
@@ -22,6 +24,8 @@ const HomePage = () => {
       <CaseStudy />
       <DevelopmentApproach />
       <TechStack />
+      <OurCustomer />
+      <Footer />
     </div>
   );
 };

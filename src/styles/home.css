@@ -2,6 +2,13 @@
 
 .main-navbar {
   background: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.navbar-links:hover {
+  color: #ed216a !important;
+  border-bottom: 1px solid #ed216a;
 }
 
 button {
@@ -33,14 +40,55 @@ button {
 
 /* WHAT WE DO CSS */
 
-.what-we-do-heading {
+.what-we-do {
   padding: 45px;
   text-align: center;
 }
 
-.what-we-do-heading p {
-  font-size: 25px;
+.what-we-do h2 {
   font-weight: 700;
+}
+
+.progressive-web,
+.business-process,
+.business-app,
+.it-support {
+  border-radius: 8px;
+  width: 245px !important;
+  height: 120px;
+  background: #fff;
+  padding: 15px;
+  border: solid 1px #5f7d95;
+  margin-bottom: 25px;
+}
+
+.heading-logo {
+  display: flex;
+}
+
+.what-we-do-logo {
+  padding-right: 10px;
+}
+
+.progressive-web hr,
+.business-process hr,
+.business-app hr,
+.it-support hr {
+  width: 10%;
+  margin-left: 35px;
+  margin-top: 0px;
+}
+
+.what-we-do-description p {
+  font-size: 12px;
+}
+
+.what-we-do-slider > .slick-slider > button {
+  display: none !important;
+}
+
+.what-we-do-slider > .slick-slider > .slick-list > .slick-track > .slick-slide {
+  width: 270px !important;
 }
 
 /* TEAM WORK */
@@ -50,8 +98,7 @@ button {
   text-align: center;
 }
 
-.team-work-heading p {
-  font-size: 25px;
+.team-work-heading h2 {
   font-weight: 700;
 }
 
@@ -218,12 +265,17 @@ button {
   padding-right: 15px;
 }
 
-.heading h4 {
+.heading {
+  padding-top: 7px;
+}
+
+.heading h5 {
   font-weight: 700;
 }
 
 .development-description p {
   font-size: 12px;
+  padding: 0px 55px;
 }
 
 .development-approaches-container {
@@ -264,6 +316,194 @@ button {
   justify-content: center;
 }
 
-.tech-tabs > .nav-tabs {
-  border: none;
+a.navbar-links.nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.tech-stack-icon {
+  margin-top: 15px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs {
+  font-weight: 700;
+}
+
+.navbar-tab-links {
+  color: rgba(0, 0, 0, 0.5) !important;
+  padding: 5px !important;
+}
+
+.navbar-tab-links:hover {
+  color: #ed216a !important;
+  border-bottom: 1px solid #ed216a;
+  padding-bottom: 2px !important;
+}
+
+/* WHATOURCUSTOMERSAY CSS */
+
+.customer-say-heading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.customer-say-heading h2 {
+  font-weight: 700;
+}
+
+.customer-feedback-container {
+  background: #fff;
+  border-radius: 7px;
+  margin-top: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.customer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-feedback {
+  padding: 20px;
+}
+
+.customer-name {
+  text-align: center;
+}
+
+.customer-name h6 {
+  font-weight: 700;
+}
+
+button.slick-arrow.slick-next {
+  padding-left: 0px !important;
+  background: #ed216a !important;
+  border: 1px solid #ed216a !important;
+  padding: 0px !important;
+}
+
+button.slick-arrow.slick-prev {
+  background: #ed216a !important;
+  border: 1px solid #ed216a !important;
+  padding-right: 0x !important;
+  padding: 0px !important;
+}
+
+.slick-dots button {
+  background: none !important;
+  border: none !important;
+}
+
+.slick-dots li button::before {
+  color: #ed216a !important;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ed216a !important;
+  opacity: 1;
+  border: 1px solid #ed216a;
+  border-radius: 50px;
+}
+
+/* FOOTER CSS */
+
+.footer-container {
+  background: #c8f2f7;
+  margin-top: 50px;
+}
+
+.talk-to-us {
+  text-align: center;
+  padding: 25px;
+}
+
+.talk-to-us h2 {
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.form-container {
+  padding: 10px 100px;
+}
+
+.input-wrapper {
+  margin-bottom: 30px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  border-bottom: 1px solid #666;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.input-wrapper input:focus {
+  outline: none;
+}
+
+.submitBtn {
+  text-align: center;
+}
+
+.submitBtn button {
+  background: #fff !important;
+  color: #ed216a;
+  border: 1px solid #fff !important;
+  padding: 10px 30px !important;
+  border-radius: 7px;
+}
+
+.submitBtn button:focus {
+  outline: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.social-media-icon img {
+  margin-left: 10px;
+}
+
+.social-media-icon span {
+  color: #ed216a;
+  font-weight: 700;
+}
+
+.copy-rights span {
+  color: #ed216a;
+}
+
+.footer-person-parent {
+  position: relative;
+}
+
+.person-img {
+  position: absolute;
+  right: -90px;
+  top: -145px;
+}
+
+@media screen and (max-width: 767px) {
+  .projects,
+  .awards,
+  .professional-expertise,
+  .experience-years {
+    flex: 1;
+  }
+
+  .process-description {
+    margin-bottom: 15px;
+  }
 }

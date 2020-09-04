@@ -5,6 +5,7 @@ import React from "react";
 import uxDriven from "../../../assets/images/ux-driven-side.png";
 import codeReview from "../../../assets/images/code-review.png";
 import security from "../../../assets/images/security.png";
+import developmentIcon from "../../../assets/images/development-icon.png";
 
 import team from "../../../assets/images/team.png";
 
@@ -54,9 +55,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>UX Driven Engineering</h4>
+                  <h5>UX Driven Engineering</h5>
                 </div>
               </div>
               <div className="development-description">
@@ -71,9 +79,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>Developing Shared Understanding</h4>
+                  <h5>Developing Shared Understanding</h5>
                 </div>
               </div>
               <div className="development-description">
@@ -88,9 +103,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>Proven Experience and Expertise</h4>
+                  <h5>Proven Experience and Expertise</h5>
                 </div>
               </div>
               <div className="development-description">
@@ -105,9 +127,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>Security & Intellectual Property(IP)</h4>
+                  <h5>Security & Intellectual Property(IP)</h5>
                 </div>
               </div>
               <div className="development-description">
@@ -122,9 +151,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>Code Reviews</h4>
+                  <h5>Code Reviews</h5>
                 </div>
               </div>
               <div className="development-description">
@@ -139,9 +175,16 @@ const DevelopmentApproach = () => {
           <div className="col-md-6">
             <div className="development-approaches">
               <div className="d-flex">
-                <div className="heading-icon">UX</div>
+                <div className="heading-icon">
+                  <img
+                    src={developmentIcon}
+                    className="img-fluid"
+                    alt="developmentIcon"
+                    width="40"
+                  />
+                </div>
                 <div className="heading">
-                  <h4>Quality Assurance & Testing</h4>
+                  <h5>Quality Assurance & Testing</h5>
                 </div>
               </div>
               <div className="development-description">

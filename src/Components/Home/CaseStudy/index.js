@@ -32,7 +32,7 @@ const CaseStudy = () => {
           </div>
           <div className="col-md-6">
             <div className="portfolio-img">
-              <img src={k2award} className="img-fluid" alt="k2" />
+              <img src={k2award} className="img-fluid" alt="k2" width="400" />
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const TeamWork = () => {
   return (
     <div className="container">
       <div className="team-work-heading">
-        <p>Team Work</p>
+        <h2>Team Work</h2>
       </div>
       <div className="succes-rate">
         <div className="projects">
