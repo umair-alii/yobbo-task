@@ -1,0 +1,80 @@
+/* HEADERCSS */
+
+.header-banner {
+  background: #25606b url("../assets/images/header-banner.png");
+  height: 450px;
+  background-size: auto 100%;
+  background-position-x: 100%;
+}
+
+.project-deatil {
+  padding-top: 40px;
+  padding-left: 180px;
+  color: #fff;
+}
+
+.project-deatil h2 {
+  font-weight: 600;
+}
+
+.project-deatil h6 {
+  color: yellow;
+}
+
+.project-deatil p {
+  font-size: 10px;
+  max-width: 250px;
+  font-weight: 500;
+}
+
+.project-cover-photo {
+  padding-top: 40px;
+}
+
+.project-icon-img {
+  padding-left: 140px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* PROJECTDETAILCSS */
+
+.project-detail-headings,
+.challenge-detail,
+.challenge-img,
+.project-plan-detail,
+.project-plan-img,
+.technologies-name,
+.technology-img,
+.solution-detail {
+  margin-top: 50px;
+}
+
+.project-detail-headings span {
+  color: #ed216a;
+  padding-right: 10px;
+}
+
+.project-detail-headings h2 {
+  font-weight: 700;
+}
+
+.challenge-detail p {
+  font-weight: 600;
+}
+
+.technologies-name h4 {
+  color: #ed216a;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .project-deatil {
+    padding-left: 0px;
+  }
+}

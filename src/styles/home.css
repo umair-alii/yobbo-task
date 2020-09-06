@@ -2,8 +2,11 @@
 
 .main-navbar {
   background: #fff;
-  margin-top: 10px;
   border-radius: 8px;
+}
+
+.navbar-wrapper {
+  padding-top: 10px;
 }
 
 .navbar-links:hover {
